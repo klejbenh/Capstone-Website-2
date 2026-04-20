@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJ Flow Engine | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand">
+          <span class="brand-mark">FLU</span>
+          <div>
+            <p class="eyebrow">Our Backend System Preview</p>
+            <h1>DJ Flow Engine</h1>
+          </div>
+        </div>
+
+        <div class="nav-actions">
+          <div class="page-tabs" aria-label="Site navigation">
+            <a href="index.html">Home</a>
+            <a href="pipeline.html">Pipeline</a>
+            <a href="modules.html">Modules</a>
+            <a href="analysis.html">Analysis</a>
+            <a href="integration.html">Backend</a>
+            <a href="user-profiles.html">Users</a>
+            <a href="team.html">Team</a>
+          </div>
+          <a class="ghost-button spotify-button" href="https://accounts.spotify.com/login" target="_blank" rel="noreferrer">Login to Spotify</a>
+        </div>
+      </nav>
+
+      <section class="hero-copy">
+        <p class="pill">How To Use The Website</p>
+        <h2>Start here before running the playlist analysis.</h2>
+        <p class="intro">
+          To use this project, you should go to the <strong>Analysis</strong> page. That page is where the sample backend analysis is shown, including how playlist data would be processed, scored, and reordered.
+        </p>
+      </section>
+
+      <div class="metrics-grid hero-instructions">
+        <div class="metric">
+          <span class="metric-label">Step 1</span>
+          <strong>Log in with Spotify</strong>
+          <p>Use the Spotify login button at the top of the page so the system can access playlist and track data connected to your account.</p>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Step 2</span>
+          <strong>Go to Analysis</strong>
+          <p>Click the <strong>Analysis</strong> page in the top navigation bar. This is the page users must visit to run or view the playlist analysis workflow.</p>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Step 3</span>
+          <strong>Run the analysis</strong>
+          <p>The backend extracts audio features, scores possible transitions, and builds an optimized song order based on flow and compatibility.</p>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Step 4</span>
+          <strong>Review the sequence</strong>
+          <p>Review the returned playlist order and use the other pages to understand the pipeline, modules, users, backend connection, and team focus.</p>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a class="primary-button" href="analysis.html">Go to Analysis</a>
+        <a class="secondary-button" href="#site-overview">Explore Overview</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel" id="site-overview">
+        <div class="panel-heading">
+          <p class="eyebrow">Site Overview</p>
+          <h3>Choose a section and dive deeper</h3>
+        </div>
+
+        <div class="overview-grid">
+          <a class="overview-card" href="pipeline.html">
+            <span class="step-number">01</span>
+            <h4>System Pipeline</h4>
+            <p>See how audio features move from extraction to graph-based sequencing.</p>
+          </a>
+          <a class="overview-card" href="modules.html">
+            <span class="step-number">02</span>
+            <h4>Backend Modules</h4>
+            <p>Review the core backend services and their responsibilities.</p>
+          </a>
+          <a class="overview-card" href="analysis.html">
+            <span class="step-number">03</span>
+            <h4>Analysis</h4>
+            <p>Go here to view the playlist analysis workflow and sample backend output.</p>
+          </a>
+          <a class="overview-card" href="integration.html">
+            <span class="step-number">04</span>
+            <h4>Connection Plan</h4>
+            <p>Understand how Spotify data flows into the analysis backend.</p>
+          </a>
+          <a class="overview-card" href="user-profiles.html">
+            <span class="step-number">05</span>
+            <h4>User Profiles</h4>
+            <p>See who the platform is built for and how each type of user interacts with it.</p>
+          </a>
+          <a class="overview-card" href="team.html">
+            <span class="step-number">06</span>
+            <h4>Team and Focus</h4>
+            <p>Highlight the project mission, team direction, and active priorities.</p>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

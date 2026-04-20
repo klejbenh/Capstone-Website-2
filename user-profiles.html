@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJ Flow Engine | User Profiles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="user-profiles.css">
+</head>
+<body data-page="user-profiles">
+  <div class="page-shell">
+    <header class="hero compact-hero">
+      <nav class="topbar">
+        <div class="brand">
+          <span class="brand-mark">UP</span>
+          <div>
+            <p class="eyebrow">Backend Planning Page</p>
+            <h1>User Profiles</h1>
+          </div>
+        </div>
+
+        <div class="nav-actions">
+          <div class="page-tabs" aria-label="Site navigation">
+            <a href="index.html">Home</a>
+            <a href="pipeline.html">Pipeline</a>
+            <a href="modules.html">Modules</a>
+            <a href="analysis.html">Analysis</a>
+            <a href="integration.html">Backend</a>
+            <a href="user-profiles.html">Users</a>
+            <a href="team.html">Team</a>
+          </div>
+          <a class="ghost-button spotify-button" href="https://accounts.spotify.com/login" target="_blank" rel="noreferrer">Login to Spotify</a>
+        </div>
+      </nav>
+
+      <section class="hero-copy">
+        <p class="pill">Who This Backend Serves</p>
+        <h2>Two users, two different reasons for wanting better sequencing.</h2>
+        <p class="intro">
+          These profiles explain who will use the platform, what they want from it,
+          and how the backend should support their playlist analysis workflow.
+        </p>
+      </section>
+    </header>
+
+    <main class="profiles-grid">
+      <article class="profile-card">
+        <div class="profile-header">
+          <div>
+            <p class="profile-number">User 1</p>
+            <h3>Beginner DJ</h3>
+          </div>
+          <div class="profile-photo" aria-hidden="true">DJ</div>
+        </div>
+        <div class="detail-block">
+          <span class="label">Role of the user</span>
+          <p>
+            A beginner DJ who wants help organizing songs into a smoother order so the playlist
+            feels more intentional and professionally sequenced.
+          </p>
+        </div>
+        <div class="detail-block">
+          <span class="label">Goals of the user</span>
+          <ul>
+            <li>Create playlists that sound more polished and DJ-like.</li>
+            <li>Improve transitions between tracks based on tempo, energy, and musical compatibility.</li>
+            <li>Learn which song order keeps momentum strong throughout a set.</li>
+          </ul>
+        </div>
+        <div class="detail-block">
+          <span class="label">Tasks of the user for the app</span>
+          <ul>
+            <li>Log in with Spotify and choose a playlist to analyze.</li>
+            <li>Send playlist data to the backend for feature extraction and transition scoring.</li>
+            <li>Review the generated sequence and compare it to the original playlist order.</li>
+            <li>Use the reordered playlist as a starting point for practice sets or live performance prep.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="profile-card">
+        <div class="profile-header">
+          <div>
+            <p class="profile-number">User 2</p>
+            <h3>Regular Music Listener</h3>
+          </div>
+          <div class="profile-photo" aria-hidden="true">ML</div>
+        </div>
+        <div class="detail-block">
+          <span class="label">Role of the user</span>
+          <p>
+            A casual music listener who is not trying to DJ, but wants the app to turn an ordinary playlist into a smoother background listening experience.
+          </p>
+        </div>
+        <div class="detail-block">
+          <span class="label">Goals of the user</span>
+          <ul>
+            <li>Keep music playing smoothly while studying, driving, working out, or relaxing.</li>
+            <li>Avoid jarring song changes without needing to understand BPM, key, or DJ techniques.</li>
+            <li>Get a playlist order that matches a mood or activity instead of a performance-style set.</li>
+          </ul>
+        </div>
+        <div class="detail-block">
+          <span class="label">Tasks of the user for the app</span>
+          <ul>
+            <li>Log in with Spotify and choose a playlist based on the situation or mood.</li>
+            <li>Select a listening goal such as focus, workout, chill, or road trip.</li>
+            <li>Let the backend reorder the tracks for comfort, consistency, and fewer abrupt shifts.</li>
+            <li>Listen to the updated sequence without needing to review technical transition details.</li>
+          </ul>
+        </div>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
