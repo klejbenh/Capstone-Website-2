@@ -12,10 +12,10 @@ const modules = [
     tags: ["Pairwise Ranking", "Feature Engineering", "Compatibility"]
   },
   {
-    name: "Boosted Ranking Model",
+    name: "Similarity Scoring Model",
     description:
-      "The final model approach is still being finalized, but this module will turn engineered transition features into ranked recommendations for track-to-track flow.",
-    tags: ["XGBoost", "LightGBM", "Inference API"]
+      "Uses StandardScaler to normalize track features and cosine_similarity to compare songs based on how closely their audio feature vectors match.",
+    tags: ["StandardScaler", "Cosine Similarity", "Feature Vectors"]
   },
   {
     name: "Playlist Path Optimizer",
